@@ -1,0 +1,18 @@
+body{
+  margin: 50px;
+}
+.a1{
+  text-align:right;
+  float: right;
+}
+.b{
+  font-style: italic;
+  color: deeppink;
+  text-decoration: underline;
+}
+.c{
+  display: flex;
+}
+.c1{
+  margin-left: 100px;
+}
