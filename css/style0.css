@@ -5,6 +5,9 @@ img{
   height:130px ;
   width:130;
 }
+hr{
+  border: 1px dashed deeppink;
+}
 .a1{
   text-align:right;
   float: right;
