@@ -1,0 +1,227 @@
+*{
+  font-family: Arial;
+  }
+  .discount{
+    float: right;
+    width: 130px;
+    height: 130px;
+    box-sizing:border-box;
+    text-align: center;
+    margin-right: 30px;
+  }
+  .head{
+    width: 942px;height: 57px;
+    margin: auto;
+  }
+  .head #left{
+    width: 136px;height: 27px;
+    float: left;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .head #right{
+    width: 136px;height: 27px;
+    float: right;
+    font-size: 28px;
+    box-sizing: border-box;
+
+  }
+.page{
+  width: 942px ;height: 639px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-top: 0px;
+}
+.page .card1{
+  width: 780px;
+  height: 140px;
+  border: 2px solid #dddddd;
+  background-color: #efefef;
+}
+.page .card1 .photo1{
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-image:url(../image/a4t1.jpg);
+  background-position: 50% 50%;
+  background-size: auto 150px;
+}
+.page .card1 .content1,.page .card2 .content2,.page .card3 .content3,.page .card4 .content4,.page .card5 .content5{
+  float: left;
+  margin: 0px 0px 0px 24px;
+  padding: 4px;
+  font-size:11px;
+  line-height:13px;
+}
+.page .card2{
+  width: 780px;
+  height: 140px;
+  border: 2px solid #dddddd;
+  margin-top: 20px;
+  background-color: #efefef;
+}
+.page .card2 .photo2{
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-image:url(../image/a4t2.jpg);
+  background-position: 50% 50%;
+  background-size: auto 150px;
+}
+.page .card3{
+  width: 780px;
+  height: 140px;
+  border: 2px solid #dddddd;
+  margin-top: 20px;
+}
+.page .card3 .photo3{
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-image:url(../image/a4t3.jpg);
+  background-position: 50% 50%;
+  background-size: auto 150px;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+  box-shadow:rgb(194, 194, 194) 0px 1px 10px 0px;
+}
+.page .card4{
+  width: 780px;
+  height: 140px;
+  border: 2px solid #dddddd;
+    margin-top: 20px;
+}
+.page .card4 .photo4{
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-image:url(../image/a4t5.jpg);
+  background-position: 50% 50%;
+  background-size: auto 150px;
+}
+.page .card5{
+  width: 780px;
+  height: 140px;
+  border: 2px solid #dddddd;
+    margin-top: 20px;
+}
+.page .card5 .photo5{
+  float: left;
+  width: 140px;
+  height: 140px;
+  background-image:url(../image/a4t4.jpg);
+  background-position: 50% 50%;
+  background-size: auto 150px;
+}
+.content1>h2{
+  color: #FF7F50;
+}
+.content2>h2{
+  color:#D2691E;
+}
+.content3>h2{
+  color: #008000;
+}
+.content4>h2{
+  color: #FF7F50;
+}
+.content5>h2{
+  color: #FF7F50;
+}
+#linkcolor1{
+  color: #FF7F50;
+  text-decoration: none;
+  font-size: 15px;
+}
+#linkcolor2{
+  color: #D2691E;
+  text-decoration: none;
+  font-size: 15px;
+}
+#linkcolor3{
+  color: #008000;
+  text-decoration: none;
+  font-size: 15px;
+}
+#linkcolor4{
+  color: #FF7F50;
+  text-decoration: none;
+  font-size: 15px;
+}
+#linkcolor5{
+  color: #FF7F50;
+  text-decoration: none;
+  font-size: 15px;
+}
+#myBtn{
+  margin-top: 5px;
+  display: block;
+  padding:5px 15px;
+  text-decoration: none;
+  background-color: #FF7F50;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+#before{
+  width: 35px;
+  float: left;
+  font-size: 12px;
+}#after{
+  width: 30px;
+  float: left;
+  font-size: 30px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+#monney{
+  margin-left: 30px;
+}
+#from{
+  margin-bottom: 20px;
+}
+#myBtnSold{
+  margin-top: 40px;
+  display: block;
+  padding:5px 15px;
+  text-decoration: none;
+  background-color: red;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#myBtn:hover,#myBtnSold:hover,#myBtn2:hover,#myBtn3:hover{
+  box-shadow:rgb(194, 194, 194) 0px 1px 10px 0px;
+  background-color: black;
+}
+#myBtn2{
+  margin-top: 5px;
+  display: block;
+  padding:5px 15px;
+  text-decoration: none;
+  background-color: #D2691E;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+#myBtn3{
+  margin-top: 5px;
+  display: block;
+  padding:5px 15px;
+  text-decoration: none;
+  background-color: #008000;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight:bold;
+}
