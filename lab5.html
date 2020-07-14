@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/lab5style.css">
+    <link href="font/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Responsive Checkout Form</h2>
+    <div class="container">
+        <form>
+            <div class="left">
+                <h2>Billing Address</h2>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="​​john@example.com">
+                <label for="adr"><i class="far fa-address-card"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                <label for="city"><i class="fas fa-university"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="New York">
+                <div class="left">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="NY">
+                </div>
+                <div class="right">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="10001">
+                </div>
+            </div>
+            <div class="right">
+                <h2>Payment</h2>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                    <i class="fab fa-cc-visa" style="color:navy;"></i>
+                    <i class="fab fa-cc-amex" style="color:blue;"></i>
+                    <i class="fab fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fab fa-cc-discover" style="color:orange;"></i>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <div class="left">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+                <div class="right">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                </div>
+            </div>
+            <label><input type="checkbox" checked="checked" name="sameadr">Shipping address same as billing</label>
+            <input type="submit" value="Continue to checkout" class="btn">
+        </form>
+    </div>
+</body>
+</html>
