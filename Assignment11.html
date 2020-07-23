@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/Assignment11style.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="opentabs('Home')">Home</button>
+        <button class="tablink" onclick="opentabs('Profile')">Profile</button>
+        <button class="tablink" onclick="opentabs('Messages')">Messages</button>
+        <button class="tablink" onclick="opentabs('Settings')">Settings</button>
+    </div>
+    <div id="Home" class="tabcontent">
+        <p>This is Home content</p>
+    </div>
+    <div id="Profile" class="tabcontent">
+        <p>This is Profile content</p>
+    </div>
+    <div id="Messages" class="tabcontent">
+        <p>This is Messages content</p>
+    </div>
+    <div id="Settings" class="tabcontent">
+        <p>This is Settings content</p>
+    </div>
+    <script>
+        function opentabs(tabName) {
+            var e=document.getElementsByClassName("tabcontent");
+            for(var i=0;i<e.length;i++){
+                e[i].style.display="none";
+            }
+            document.getElementById(tabName).style.display="block";
+        }
+    </script>
+</body>
+</html>
