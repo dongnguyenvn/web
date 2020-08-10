@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url("../image/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 220px;
+}
+#navbar{
+    height: 60px;
+    display: flex;
+}
+#navbar>ul{
+    list-style: none;
+    margin-top: 55px;
+    margin-left: 500px;
+    font-size: 25px;
+    color: #a49e6e;
+}
+#navbar>ul>li{
+    display: inline-block;
+    margin-left: 15px;
+}
+#header-title{
+    width: 58%;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 34px;
+}
+#header-title{
+    height: 60px;
+    margin-top: 75px;
+    margin-left: 460px;
+}
+main{
+    width: 100%;
+    background-color: #6e6943;
+
+    display: flex;
+}
+#content{
+    box-sizing: border-box;
+    padding: 20px 25px 0 30px;
+    width: 69%;
+}
+#content img{
+    width: 100%;
+    height: 2px;
+}
+#content a{
+    color: #000000;
+}
+#background{
+    flex: 1;
+}
+#team{
+    width: 30%;
+    height: 750px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+#team img{
+    margin-left: 20px;
+}
+.card{
+    flex: 0 0 50%;
+
+    height: 100px;
+    margin-top: 20px;
+}
+.card>p{
+    font-weight: 400;
+    color: white;
+}
