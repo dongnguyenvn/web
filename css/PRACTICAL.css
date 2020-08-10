@@ -57,6 +57,7 @@ main{
 }
 #background{
     flex: 1;
+    height: 750px;
 }
 #team{
     width: 30%;
